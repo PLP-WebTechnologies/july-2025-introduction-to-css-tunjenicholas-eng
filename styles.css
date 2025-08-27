@@ -1,0 +1,73 @@
+/* General reset for cleaner layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header and navigation */
+.site-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.intro {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+}
+
+.card {
+  background-color: #e8f4fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+}
+
+/* Button styling */
+.btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #357ab8;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ddd;
+  border-top: 1px solid #bbb;
+}
